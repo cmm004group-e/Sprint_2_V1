@@ -1,0 +1,18 @@
+DROP TABLE IF EXISTS `user_profile`;
+CREATE TABLE `user_profile` (
+  `Id` int(4) NOT NULL AUTO_INCREMENT,
+  `firstname` varchar(50) NOT NULL,
+  `lastname` varchar(50) NOT NULL,
+  `email` varchar(250) NOT NULL,
+  `username` varchar(50) NOT NULL,
+    `password` varchar(50) NOT NULL,
+  `jobtitle` varchar(50) NOT NULL,
+    `company` varchar(50) NOT NULL,
+  `job_disc` varchar(250) NOT NULL,
+    `telephone` int(50) NOT NULL,
+  `linkedin` varchar(250) NOT NULL,
+    `intagram` varchar(250) NOT NULL,
+  `twitter` varchar(250) NOT NULL,
+    `facebook` varchar(250) NOT NULL, 
+  PRIMARY KEY (`Id`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
